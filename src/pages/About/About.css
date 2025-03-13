@@ -1,0 +1,15 @@
+ul {
+    display: flex;
+    justify-content: center;
+  
+    color: red;
+}
+p{
+    color: aqua;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: aliceblue   ;
+}
