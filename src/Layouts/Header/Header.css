@@ -1,0 +1,88 @@
+
+
+
+h1 {
+  margin: 10px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+
+a:hover {
+    color: #1e90ff;
+
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+}
+/* Estilos generales */
+.header {
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    position: sticky;
+    top: 0; /* Se adhiere al tope de la ventana */
+    z-index: 1000; 
+ 
+
+   
+    /* justify-content: space-around; */
+  }
+  
+  /* Estilos del logo */
+  .logo h1 {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Estilos de la barra de navegación */
+  .navbar {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-item:hover {
+    color: #38bdf8;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive para móviles */
+  @media (max-width: 768px) {
+    .header {
+      padding: auto;
+      flex-direction: column;
+      text-align: center;
+      
+    }
+  
+    .navbar {
+      flex-direction: column;
+      margin-top: 5px;
+    }
+  
+    .nav-item {
+      padding: 8px 0;
+    }
+  }

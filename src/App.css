@@ -1,43 +1,13 @@
-main {
-    width: 100%;
-    display: flex;
-}
+
+.App {
+  text-align: center;
+ 
+  background: linear-gradient(135deg, #2a384d,#061C49);
+
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}   
 
 
-.contain {
-    width: 100%;
-    padding: 10px;
-    border-radius: 10px;
-    border-color: black;
-    border: solid;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px 0 10px 0;
-    
-}
-.box1{
-    width: 300px;
-    height: 260px;
-    padding: 10px; 
-    border-radius: 10px;
-    border-color: black;
-    border: solid;
-    margin: 70px;
-}
 
-.box2{
-    width: 300px;
 
-    border-radius: 10px;
-    border-color: black;
-    border: solid;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin: 70px;
-}
-.box2 img {
-    width: 200px;
-    height: 280px;
-}
+
