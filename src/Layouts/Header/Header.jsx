@@ -10,18 +10,18 @@ const Header = () => {
             <h1>Esteban osorio</h1>
             </div>
             <div className='box22'>
-            <ItemNavbar  route="/Home"
+            <ItemNavbar  route="PortafolioOso/"
              myStyles="text-white fond-bold m-2 hover:text-sky-400 hover:underline"
              contentItem="HOME"
            />
-            <ItemNavbar route="/About"
+            <ItemNavbar route="PortafolioOso/About"
               myStyles="text-white fond-bold m-2 hover:text"
               contentItem="ABOUT"
            />
-            <ItemNavbar route="./clase2"
+            {/* <ItemNavbar route="./clase2"
               myStyles="text-white fond-bold m-2 hover:text"
               contentItem="SKILLS"
-           />
+           /> */}
            </div>
         </header>
   )

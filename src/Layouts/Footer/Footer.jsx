@@ -10,7 +10,7 @@ const Footer = () => {
     <footer>
         <nav>
             <ul>
-              <NavLink to='https://github.com/osorio99'><ItemNavbar contentItem={<FaGithub />}/></NavLink>
+              <NavLink href='https://github.com/osorio99'><ItemNavbar contentItem={<FaGithub />}/></NavLink>
               <NavLink to=''><ItemNavbar contentItem={<FaLinkedinIn />}/></NavLink>
               <NavLink to=''><ItemNavbar contentItem={<FaDiscord  />}/></NavLink>
             </ul>

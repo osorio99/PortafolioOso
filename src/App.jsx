@@ -3,7 +3,7 @@ import Header from './Layouts/Header/Header'
 import Footer from './Layouts/Footer/Footer'
 import "./App.css"
 import Home from "./pages/Home/Home"
-import About from "./Pages/About/About"
+import About from "./pages/About/About"
 import Main from "./Layouts/Main/Main"
 const App = () => {
   return (
@@ -12,8 +12,8 @@ const App = () => {
     
         <Routes>
         
-        <Route path="/Home" element={ <Home/> } /> 
-        <Route path="/About" element={ <About/> } />
+        <Route path="/PortafolioOso" element={ <Home/> } /> 
+        <Route path="PortafolioOso/About" element={ <About/> } />
        
       </Routes>
      

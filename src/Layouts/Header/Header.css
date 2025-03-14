@@ -36,6 +36,7 @@ a:hover {
     position: sticky;
     top: 0; /* Se adhiere al tope de la ventana */
     z-index: 1000; 
+    
  
 
    
@@ -86,3 +87,4 @@ a:hover {
       padding: 8px 0;
     }
   }
+

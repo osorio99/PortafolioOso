@@ -13,17 +13,12 @@ footer {
     position: sticky;
     z-index: 0;
     bottom: 0;
+    position: fixed;
 }
 
 
 
 
-ul {
-    display: flex;
-    gap: 20px;
-    height: 100%;
-    margin: 0;
-}
 
 a {
     color: #ffffff;
@@ -33,6 +28,7 @@ a {
 
 a:hover {
     color: #1e90ff;
+    
 }
 
 #root {
